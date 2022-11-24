@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="view-port" content="width=device-width,initial-scale=1.0"/>
+   
+    <link rel="stylesheet" href="port.css">
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <title>Portfolio Page</title>
+    <body>
+        <nav id="navbar">
+  <a href="#welcome-section">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="welcome-section">
+  <h1>Hello !</h1>
+  <p>My name is Divya</p>
+  <p>and I am a Web Developer</p>
+</header>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+    <a href="Tributepage.html" target="_blank"  class="project-tile">
+        <p>Tribute Page</p>
+    </a>
+    <a href="Surveyform.html" target="_blank"  class="project-tile">
+        <p>Survey Form</p>
+    </a>
+    <a href="landingPage.html" target="_blank"  class="project-tile">
+       <p>Landing Page</p>
+    </a>
+</div>
+</section>
+<section id="contact" class="bg-blue">
+    <h2>Contact</h2>
+    <p>You can catch me on</p>
+    <ul class="social-ul">
+      <li>
+        <i class="fab fa-twitter"></i>
+        </li>
+        <li><a id="profile-link" href="https://github.com/" target="_blank"><i class="fab fa-github"></i>
+        </a>
+    </li>
+    <footer>
+        Made  by Divya
+      </footer>
+    </body>

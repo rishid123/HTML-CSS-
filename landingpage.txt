@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="view-port" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="land.css">
+    <title>Landing Page</title>
+    <body>
+        <header id="header">
+            <div class="logo">
+              <a href=""><h2><span>Best</span>Shoes</h2></a>
+            </div>
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>&nbsp;
+                <a href="#video" class="nav-link">About Us</a>&nbsp;
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </nav>
+        </header>
+        <form action="form">
+            <h2>It's Hand-made Shoes</h2>
+            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <button class="btn">Submit</button>
+        </form>
+        <div id="features">
+            <div id="premium">
+               
+                <div class="para">
+                    <h2>Premium Materials</h2>
+                    <p>Our shoes use the high quality leather which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div id="shipping">
+               
+                <div class="para">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your shoes as soon as we have finished making it. We also provide free
+                        returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div id="quality">
+               
+                <div class="para">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
+                        the pitch of your instrument.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="pricing">
+            <div class="low">
+                <h2>Service</h2>
+                <h3>$30</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt nam quod ipsam sequi, quo.</p>
+                <p> <strong> Lorem ipsum dolor sit amet.</strong></p>
+                <button class="btn" id="submit">Select</button>
+            </div>
+            <div class="medium">
+                <h2>Bata</h2>
+                <h3>$50</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt nam quod ipsam sequi, quo.</p>
+                <p> <strong> Lorem ipsum dolor sit amet.</strong></p>
+                <button class="btn"  id="submit">Select</button>
+            </div>
+            <div class="high">
+                <h2>Starlett</h2>
+                <h3>$30</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt nam quod ipsam sequi, quo.</p>
+                <p> <strong> Lorem ipsum dolor sit amet.</strong></p>
+                <button class="btn" id="submit">Select</button>
+            </div>
+        </div>
+        <footer>
+            <p>Created by Rushikesh</p>
+        </footer>
+    </body>
+</html>

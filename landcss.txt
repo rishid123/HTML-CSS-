@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f3f3;
+}
+p{
+    font-size: 15px;
+}
+span{
+  color:#000;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+#header-image{
+    width: 65px;
+    margin-top: 0.5em;
+}
+#nav-bar{
+    display: flex;
+    gap: 4em;
+    margin-top: 1.5em;
+}
+#nav-bar a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+}
+.logo a{
+  text-decoration:none;
+  color:orange;
+  font-weight:bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 3em;
+}
+form input{
+    width: 400px;
+    padding: 0.8em;  
+    border: none;
+    box-shadow: 0px 0px 7px #333;
+}
+.btn{
+    width: 150px;
+    margin-top: 2em;
+    padding: 1em 2em;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: all;
+}
+.btn:hover{
+    background: none;
+    border: 2px solid orange;
+    color: orange;
+    transition: 500ms ease-out;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 3em;
+    gap: 2em;
+}
+#features h2{
+    margin-bottom: 0;
+}
+#features p{
+    margin-top: 0;
+}
+#premium,#shipping,#quality{
+    display: flex;
+    gap: 2em;
+}
+#premium img,#shipping img,#quality img{
+    width: 5%;
+    height: auto;
+    object-fit: cover;
+    border-radius:80% 
+}
+#pricing{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.low,.medium,.high{
+    padding:1em 2em;
+    border: 1px solid #333 ;
+}
+.low:hover{
+    border: none;
+    box-shadow: 0 0 7px #333;
+}
+.medium:hover{
+    border: none;
+    box-shadow: 0 0 7px #333;   
+}
+.high:hover{
+    border: none;
+    box-shadow: 0 0 7px #333;
+}
+
+footer{
+    background-color: orange;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    margin-top: 2em;
+}
+@media (max-width:720px){
+    #pricing{
+        flex-direction: column;
+    }
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar{
+        flex-direction: column;
+    }
+    
+    form input{
+        width: 65%;
+    }
+    
+}
+@media (max-width:570px){
+    #premium,#shipping,#quality{
+        text-align:center;
+    }    
+}
